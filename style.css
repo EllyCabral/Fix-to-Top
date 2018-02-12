@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700");
+
+* {
+  transition: .25s all;
+  -webkit-transition: .25s all;
+  -moz-transition: .25s all;
+  -ms-transition: .25s all;
+  -o-transition: .25s all;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: url('data:image/svg+xml,%3Csvg width="8" height="8" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="%23222222" fill-opacity="0.2" fill-rule="evenodd"%3E%3Cpath d="M0 40L40 0H20L0 20M40 40V20L20 40"/%3E%3C/g%3E%3C/svg%3E') #020202;
+}
+h1 {
+  border-top: 2px solid #715399;
+  color: #715399;
+  font: normal 700 40px/45px 'Montserrat', sans-serif;
+  letter-spacing: .05em;
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+h2 {
+  color: #694C99;
+  font: normal 700 30px/35px 'Montserrat', sans-serif;
+  letter-spacing: .05em;
+  padding: 10px 0;
+  margin: 0;
+}
+p {
+  color: #686A78;
+  font: normal 400 15px/30px 'Merriweather', serif;
+  letter-spacing: .025em;
+  padding: 10px 0;
+  margin: 0;
+}
+a.button {
+  color: #715399;
+  font: normal normal 15px/15px 'Merriweather', serif;
+  letter-spacing: .025em;
+  padding: 20px;
+  margin: 0 0 5px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  border: 2px solid #715399;
+}
+a.button:hover {
+  color: #000;
+  background: #715399;
+}
+header {
+  width: 90%;
+  clear: both;
+  overflow: hidden;
+  padding: 50px 5%;
+  background: #000;
+}
+header svg {
+  float: left;
+  margin: 0 20px 0 0;
+}
+header h2 {
+  padding: 0;
+  float: left;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 400;
+}
+.content-wrap {
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+  overflow: hidden;
+  position: relative;
+  background: url(https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=30150961ba51bb44b5a193ed314c61e7) no-repeat left -550px / 100% auto;;
+}
+.content {
+  width: 60%;
+  float: left;
+  padding: 100px 5%;
+}
+.sidebar {
+  width: 20%;
+  float: right;
+  padding: 100px 5%;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  top: 0;
+}
+.sidebar.fixed {
+  position: fixed;
+}
+.sidebar ul, .sidebar ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+footer {
+  width: 90%;
+  clear: both;
+  overflow: hidden;
+  padding: 30px 5%;
+  background: #000;
+  position: relative;
+}
+footer p {
+  font-size: 12px;
+}
